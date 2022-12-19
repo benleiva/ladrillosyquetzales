@@ -1,0 +1,199 @@
+baseurl: https://nordic1.netlify.app/
+title: Ladrillos y Quetzales
+theme: hugo-universal-theme
+languageCode: es
+defaultContentLanguage: es
+disqusShortname:
+googleAnalytics: ''
+summaryLength: 70
+paginate: 10
+pluralizelisttitles: no
+menu:
+  main:
+    - identifier: menu.home
+      name: Inicio
+      url: /
+      weight: 1
+    - name: Qué es esto
+      parent: menu.home
+      url: /inicio/historia/
+      weight: 1
+    - identifier: menu.blog
+      name: Blog
+      url: /blog/
+      weight: 2
+    - identifier: menu.productos
+      name: Productos
+      url: /img/producto-imagen.png
+      weight: 3
+    - identifier: section.diferenciados
+      name: Diferenciados
+      parent: menu.productos
+      post: 1
+      url: ''
+      weight: 1
+    - identifier: section.tradicionales
+      name: Tradicionales
+      parent: menu.productos
+      post: 2
+      url: ''
+      weight: 2
+    - name: Nordic Compost
+      parent: section.diferenciados
+      url: /productos/nordic_compost/
+      weight: 1
+    - name: Más Café
+      parent: section.diferenciados
+      url: /productos/mas_cafe/
+      weight: 2
+    - name: Más Maíz
+      parent: section.diferenciados
+      url: /productos/mas_maiz/
+      weight: 3
+    - name: Más Phos
+      parent: section.diferenciados
+      url: /productos/mas_phos/
+      weight: 4
+    - name: Nordic Yes
+      parent: section.diferenciados
+      url: /productos/nordic_yes/
+      weight: 5
+    - name: PFN
+      parent: section.diferenciados
+      url: /productos/PFN/
+      weight: 5
+    - name: Materias primas
+      parent: section.tradicionales
+      url: /productos/materia_prima/
+      weight: 1
+    - name: Fórmulas
+      parent: section.tradicionales
+      url: /productos/formula/
+      weight: 2
+    - identifier: menu.servicios
+      name: Servicios
+      url: /servicios/
+      weight: 3
+    - identifier: menu.bodega
+      name: Bodegas
+      url: /bodegas/bodegas/
+      weight: 4
+    - identifier: menu.glosario
+      name: Glosario
+      url: /glosario/glosario/
+      weight: 4
+    - identifier: contact
+      name: Contacto
+      url: /contact/
+      weight: 6
+  topbar:
+    - name: Phone
+      pre: <i class='fas fa-2x fa-phone'></i>
+      url: tel:+502 2417 9999
+      weight: 1
+    - name: Correo
+      pre: <i class='fas fa-2x fa-envelope'></i>
+      url: mailto:info@nordic.com.gt
+      weight: 2
+    - name: Facebook
+      pre: <i class='fab fa-2x fa-facebook'></i>
+      url: https://www.facebook.com/profile.php?id=100076144389782
+      weight: 3
+    - name: Twitter
+      pre: <i class='fab fa-2x fa-twitter'></i>
+      url: http://twitter.com
+      weight: 4
+params:
+  about_us: <p>Nordic es una empresa dedicada a proveer la medida justa para una buena cosecha.</p>
+  address: "<p class=\"text-uppercase\"><strong>Nordic</strong>\r\n        <br> Diagonal 6 12-42
+    \r\n        <br>Zona 10 - Edificio Design Center\r\n        <br>Torre 1 - Oficina 1201\r\n        <br>Ciudad de Guatemala\r\n
+    \       <br>\r\n        <strong>Guatemala</strong>\r\n      </p>\r\n      "
+  author: Leiva
+  carouselCustomers:
+    auto_play: no
+    items: 6
+    pagination_speed: 1000
+    slide_speed: 2000
+  carouselHomepage:
+    auto_play: no
+    enable: yes
+    pagination_speed: 1000
+    slide_speed: 2000
+  carouselTestimonials:
+    auto_play: no
+    items: 4
+    pagination_speed: 1000
+    slide_speed: 2000
+  clients:
+    enable: no
+    subtitle: ''
+    title: Visto en
+  contact_form_ajax: no
+  contact_url: /contact
+  copyright: Copyright (c) 2022, Bioska SA; todos los derechos reservados.
+  date_format: January 2, 2006
+  default_sharing_image: img/sharing-default.png
+  defaultDescription:
+  defaultKeywords:
+    - devcows
+    - hugo
+    - go
+  disabled_logo: no
+  dropdown_mouse_over: no
+  enableGoogleMaps: no
+  enableRecaptchaInContactForm: no
+  facebook_site: ''
+  features:
+    cols: 3
+    enable: yes
+  footer:
+    recent_posts:
+      enable: yes
+  formspree_action: https://formspree.io/sample/of/endpoint
+  googleMapsApiKey: AIzaSyAlr8KHvitvCk1kUwjyAJUnTKCQ-W_RS1Q
+  googleRecaptchaKey: site_key_for_google_recaptcha
+  latitude: '14.599055345899863'
+  logo: img/logonordic.png
+  logo_small: img/logonordic.png
+  logo_text: Nordic
+  longitude: '-90.50881223144818'
+  mainSections: blog
+  recent_posts:
+    enable: yes
+    hide_summary: no
+    subtitle: Tendencias de mercado, nuevos fertilizantes, cambios en procesos,
+      servicios revolucionarios y mucho más. Una publicación al mes nos mantiene
+      constantemente comunicando las novedades de Nordic a nuestros clientes y 
+      colaboradores.
+    title: El blog
+  see_more:
+    enable: no
+    icon: far fa-file-alt
+    link_text: Mira nuestras fotos
+    link_url: 'https://www.facebook.com/profile.php?id=100076144389782&sk=photos'
+    subtitle: Tenemos una linda galería documentando nuestros 20 años de trabajo.
+    title: ¿Quieres ver más?
+  style: marsala
+  testimonials:
+    enable: no
+    subtitle: Hemos trabajado con muchos clientes y siempre agradecemos escuchar sobre sus origenes, metas, logros y cómo Nordic los ha ayudado en su camino. Toma una mirada a lo que tienen que decir sobre nosotros.
+    title: Testimonios
+  topbar:
+    enable: no
+    text: "<p class=\"hidden-sm hidden-xs\">Contáctanos al +(502) 2417 - 9999 o info@nordic.com.gt</p>\r\n
+      \     <p class=\"hidden-md hidden-lg\"><a href=\"tel:+502 2417 9999\" data-animate-hover=\"pulse\"><i
+      class=\"fas fa-phone\"></i></a>\r\n      <a href=\"mailto:info@nordic.com.gt\"
+      data-animate-hover=\"pulse\"><i class=\"fas fa-envelope\"></i></a>\r\n      </p>\r\n
+      \     "
+  twitter_site: GoHugoIO
+  viewMorePostLink: /blog/
+  widgets:
+    categories: yes
+    search: yes
+    tags: yes
+permalinks:
+  blog: /blog/:year/:month/:day/:filename/
+taxonomies:
+  author: authors
+  category: categories
+  tag: tags

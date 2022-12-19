@@ -1,0 +1,37 @@
+---
+description: Glosario
+keywords:
+- FAQ
+- How do I
+- questions
+- what if
+title: Glosario
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+library(dplyr)
+library(readxl)
+library(htmltools)
+library(DT)
+library(widgetframe)
+library(knitr)
+```
+
+## IUSI
+
+Impuesto Único sobre Inmuebles. Este es un impuesto nacido bajo la [Ley del Impuesto Único sobre Inmuebles](https://contraloria.gob.gt/imagenes/i_docs/i_leg_ley/LEY%20DEL%20IMPUESTO%20UNICO%20SOBRE%20INMUEBLES.pdf), basado en el valor de los inmuebles situados en el territorio de la República. Este impuesto es recaudado por las municipalidades y a su beneficio. El impuesto es gradual según especifica la siguiente tabla:
+
+```{r, echo=FALSE}
+Valor <- c("Hasta Q2,000","De Q2,001 a Q20,000","De Q20,0001 a Q70,000","De Q70,000 en adelante")
+Impuesto <- c("Excento", "0.2%", "0.6%", "0.9%")
+data <- data.frame(Valor,Impuesto) 
+
+ts <- datatable(data, colnames=c("Valor inscrito", "Impuesto"), options = list(dom = 't'), filter = list(position = "top"))
+
+widgetframe::frameWidget(ts)
+```
+
+
+
+

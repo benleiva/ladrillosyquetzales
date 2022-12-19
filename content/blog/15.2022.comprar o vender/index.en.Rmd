@@ -1,0 +1,140 @@
+---
+title: "¿Comprar o arrendar?"
+#authors:
+#- John Doe
+date: 2022-12-15T21:13:14-05:00
+categories:
+- Analisis
+- Arrendar
+- Comprar
+banner: img/banners/banner-4.jpg
+tags:
+- Arrendar
+- Comprar
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+library(ggplot2)
+library(readxl)
+library(plotly)
+library(waterfalls)
+```
+
+```{r, include=FALSE}
+formato <- function(x) {format(x, big.mark = ",", decimal.mark = ".", scientific = FALSE, nsmall = 0)}
+```
+
+## Resumen
+
+A la hora de elegir una vivienda para vivir ¿es más conveniente comprar y pagar los intereses del crédito hipotecario o arrendar y pagar el alquiler? Este post discute los costos y beneficios de cada alternativa -monetarios y también no monetarios- y presenta un ejemplo para ilustrar. El post asume que la compra se hace con un crédito hipotecario, y se enfoca en el primer año para mantener el análisis simple.
+
+## Comprar
+
+### Costos
+
+Los principales costos monetarios de comprar son 1) la cuota del crédito hipotecario (significativamente mayor al alquiler que se tendría que pagar por la misma vivienda) y 2) el enganche (usualmente 10 - 20 % del valor de la propiedad). Además, comprar una vivienda implica el pago de 3) un impuesto al patrimonio llamado [IUSI](http://localhost:4321/glosario/glosario/#iusi) (usualmente un 0.09% anual sobre el valor de la propiedad), 4) cuota de mantenimiento, 5) aportes de mantenimiento extraordinarios ocasionales ante obras mayores y 6) reparaciones de la vivienda eventuales. Por último, comprar una vivienda implica 7) seguros contra eventos como fuego y terremoto, y en caso de tener un crédito hipotecario un seguro personal. Esto suele venir incluido en la cuota hipotecaria, pero es posible (y recomendable) adquirirlo aparte.
+
+Costos no monetarios incluyen 1) riesgos de que la vivienda pierda valor por problemas en la construcción, el barrio u otro motivo, 2) dificultad de dejar la vivienda en caso se desee o necesite (por ejemplo, por cambio de país o crecimiento de la familia y 3) lidiar con la administración, asamblea de propietarios y/o chats de vecinos por temas relativos a los espacios comunes de la propiedad en caso sea en un edificio o condominio.
+
+### Beneficios
+
+Los principales beneficios monetarios de comprar son que 1) no se tiene que pagar alquiler, 2) la cuota es fija y cada vez contiene menos intereses y más capital, 3) el valor de la vivienda sube y 4) es posible reducir impuestos por la compra de vivienda y pago de intereses.
+
+Beneficios no monetarios incluyen 1) tener incentivos y autorización para hacer mejoras en la vivienda propia, 2) poder vivir en la vivienda todo el tiempo que se desee, 3) el sentido de orgullo y seguridad de tener una vivienda propia y 4) tener mayor sentido para construir relaciones fraternales con los vecinos.
+
+## Arrendar
+
+Los costos y beneficios son lo opuesto a comprar, con algunas adiciones.
+
+### Costos
+
+El principal costo monetario de arrendar es 1) el alquiler, especialmente porque ese dinero se gasta y no se vuelve a ver. Además, el alquiler suele subir año a año, por lo que este costo va en aumento. Arrendar también requiere 2) el pago de una garantía al inicio del contrato, usualmente equivalente a un mes de alquiler. 
+
+Costos no monetarios incluyen 1) no tener incentivos y/o autorización para hacer mejoras porque la vivienda no es propia y 2) tener que entregar la vivienda si el dueño la solicita.
+
+### Beneficios
+
+El beneficio monetario de arrendar es ahorrarse los costos de comprar, es decir: 1) pagar un alquiler significativamente menor a la cuota hipotecaria y no tener que pagar 2) enganche, 3) IUSI, 4) cuota de mantenimiento ordinaria, 5) aportes de mantenimiento extraordinarios, 6) reparaciones de la vivienda eventuales y 7) seguros.
+
+Beneficios no monetarios incluyen 1) no enfrentar riesgos de pérdida de valor de la vivienda, 2) mayor flexibilidad para cambiarse de vivienda y 3) no tener que lidiar con la administración de las areas comunes de la propiedad (administrador, asamblea de vecinos, chats).
+
+## Ejemplo
+
+Este es un ejemplo real en un edificio de apartamentos remodelado en Zona 1 de Ciudad de Guatemala. El apartamento fue comprado a fines de 2018 por Q 735,795, aunque el pago total fue de Q 742,000 por los costos del banco. El enganche fue de Q 111,000, equivalente a 15 % del valor de la propiedad, por lo que el crédito hipotecario fue de Q 631,000 a una tasa de interés de un 8 %. La cuota resultante fue de Q 4,870 mensuales (incluyendo seguros), el mantenimiento de Q 813 y el IUSI de Q 400. El pago mensual total ascendió a Q 6,083.
+
+La propiedad se arrendó aproximadamente en Q 4,000 mensuales, es decir, Q 2,000 menos que el pago por haberla comprado. Aquí se evidencian dos beneficios de arrendar, dado que comprar requirió Q 111,000 de enganche al inicio y luego pagar un 50 % más al mes. Con esto parece que comprar es un mal negocio: al finalizar el primer año habremos pagado por arrendar sólo Q 48,000 (Q 4,000 por 12 meses) mientras que por comprar Q 184,000 (Q 6,083 por 12 meses más Q 111,000).
+
+```{r, echo=FALSE, fig.align = 'left', fig.cap="Comprar vs Arrendar"}
+decision <- c(rep("Comprar" , 4) , rep("Arrendar" , 1))
+partida <- rep(c("Enganche","Cuota","Mantenimiento","IUSI","Alquiler"))
+quetzales <- c(111000, 58440, 9756, 4800, 48000)
+data <- data.frame(decision,partida,quetzales) %>% 
+  mutate(texto = paste0("<b>Partida:</b> ", partida, "<br>",
+                   "<b>Quetzales:</b> ", formato(quetzales)))
+
+fig1 <- ggplot(data = data) +
+  aes(fill=partida, y=quetzales, x=decision, text = texto) + 
+  geom_bar(position=position_stack(reverse=TRUE), stat="identity") +
+  scale_y_continuous(name="Quetzales/año", labels = scales::comma) +
+  labs(title = "",
+    subtitle = "",
+    caption = paste(""),
+    x = "Decisión",
+    y = "Quetzales/mes") +
+  theme_classic() +
+  labs(fill = "Partida")
+
+ggplotly(fig1, tooltip = "texto") %>% 
+  config(displayModeBar = FALSE)
+
+```
+
+Pero este análisis está incompleto porque no hemos considerado que todo lo pagado por arriendo es gasto (no se vuelve a ver), mientras que una parte importante de lo pagado por compra es inversión (pasa a ser parte de nuestro patrimonio). Con la compra nuestro patrimonio aumenta en la suma del enganche (Q 111,000), más la porción del pago mensual total correspondiente a capital (aproximadamente un 10 % el primer año), e importantemente, más el aumento del valor de la propiedad. Asumiendo conservadoramente que dicho aumento fue sólo la inflación del año 2019 de 2.26 %, el aumento del valor fue de Q 16,609. Por tanto el pago de Q 48,000 anuales por arrendar se deben comparar contra el pago por comprar neto de patrimonio de Q 49,091 (Q 184,000 - 111,000 - 16,609 - 6,083 x 12 x 10%).
+
+```{r, echo=FALSE, fig.align = 'left', fig.cap="Gasto neto de comprar"}
+group <- c("Pago anual","Enganche","Valorización","Capital")
+value <- c(184000, -111000, -16609, -7299.6)
+data1 <- data.frame(x = group, y = value) 
+
+waterfall(data1, calc_total = TRUE) +
+  scale_y_continuous(name="Quetzales/año", labels = scales::comma) +
+  labs(title = "",
+    subtitle = "",
+    caption = paste(""),
+    x = "",
+    y = "Quetzales/año") +
+  theme_classic()
+```
+
+Ahora las opciones son más cercanas, y ojo que este es sólo el primer año. Cada año el alquiler subirá (empeorando la posición de arrendar) mientras el valor de la propiedad y el pago a capital subirá (mejorando la posición de comprar). Pero para completar la comparación aún falta considerar el ahorro de impuestos por la compra de vivienda y pago de intereses. Esto dependerá de tus ingresos, forma de contratación y régimen tributario (más detalles en un post dedicado [aquí](http://localhost:4321/glosario/glosario/#iusi)). En este caso el ahorro tributario fue de alrededor de Q 2,000 al mes, o bien Q 24,000 el primer año. Así, la comparación monetaria final compara el arriendo anual de Q 48,000 con el pago por comprar neto de patrimonio y de impuestos de Q 25,091 (Q 184,000 - 111,000 - 16,609 - 6,083 x 12 x 10% - 24,000).
+
+```{r, echo=FALSE, fig.align = 'left', fig.cap="Análisis final comprar vs Arrendar"}
+decision <- c(rep("Comprar" , 1) , rep("Arrendar" , 1))
+partida <- rep(c("Pago neto","Alquiler"))
+quetzales <- c(25091, 48000)
+data1 <- data.frame(decision,partida,quetzales) %>% 
+  mutate(texto = paste0("<b>Partida:</b> ", partida, "<br>",
+                   "<b>Quetzales:</b> ", formato(quetzales)))
+
+fig3 <- ggplot(data = data1) +
+  aes(fill=partida, y=quetzales, x=decision, text = texto) + 
+  geom_bar(position=position_stack(reverse=TRUE), stat="identity") +
+  scale_y_continuous(name="Quetzales/año", labels = scales::comma) +
+  labs(title = "",
+    subtitle = "",
+    caption = paste(""),
+    x = "Decisión",
+    y = "Quetzales/mes") +
+  theme_classic() +
+  labs(fill = "Partida")
+
+ggplotly(fig3, tooltip = "texto") %>% 
+  config(displayModeBar = FALSE)
+
+```
+
+## Conclusión
+
+Un análisis completo muestra que es más conveniente comprar que arrendar, especialmente si es que es posible reducir impuestos, se cuenta con los recursos necesarios y se planea mantener la propiedad por un tiempo. Arrendar hace más sentido cuando no se dispone de recursos suficientes, o cuando se necesita flexibilidad para cambiar de vivienda con facilidad.
+

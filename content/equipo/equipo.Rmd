@@ -1,0 +1,33 @@
+---
+description: Equipo
+title: Equipo
+---
+
+```{r setup, include=FALSE}
+library(dplyr)
+```
+
+```{r, echo=FALSE, fig.cap="", out.width="40%", out.extra='style="float:center; padding:10px"'}
+knitr::include_graphics("/equipo/juan.jpg", error = FALSE)
+```
+
+<center> <h3> Juan Leal </h3> </center>
+<center> <h4> Gerente general </h4> </center>
+<br>
+
+```{r, echo=FALSE, fig.cap="", out.width="30%", out.extra='style="float:center; padding:10px"'}
+knitr::include_graphics("/equipo/gerardo.jpg", error = FALSE)
+```
+
+<center> <h3> Gerardo Leal </h3> </center>
+<center> <h4> Gerente de operaciones </h4> </center>
+<br>
+
+```{r, echo=FALSE, fig.cap="", out.width="40%", out.extra='style="float:center; padding:10px"'}
+knitr::include_graphics("/equipo/juanpablo.jpg", error = FALSE)
+```
+
+<center> <h3> Juan Pablo Asturias </h3> </center>
+<center> <h4> Gerente administrativo y financiero </h4> </center>
+<br>
+
