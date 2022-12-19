@@ -3,7 +3,7 @@
     "path": "~/GitHub/ladrillosyquetzales/config.yaml",
     "project_path": "config.yaml",
     "type": "yaml",
-    "hash": "139456112",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1671477796310.0,
@@ -12,8 +12,8 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "133,36",
-        "scrollLine": "130"
+        "cursorPosition": "7,14",
+        "scrollLine": "6"
     },
     "folds": "",
     "lastKnownWriteTime": 1671478044,
