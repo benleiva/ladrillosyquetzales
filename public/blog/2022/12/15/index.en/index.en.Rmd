@@ -138,3 +138,10 @@ ggplotly(fig3, tooltip = "texto") %>%
 
 Un análisis completo muestra que es más conveniente comprar que arrendar, especialmente si es que es posible reducir impuestos, se cuenta con los recursos necesarios y se planea mantener la propiedad por un tiempo. Arrendar hace más sentido cuando no se dispone de recursos suficientes, o cuando se necesita flexibilidad para cambiar de vivienda con facilidad.
 
+<script src="https://utteranc.es/client.js"
+        repo="benleiva/ladrillosyquetzales"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
