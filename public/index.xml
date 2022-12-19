@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Universal</title>
+    <title>Ladrillos y Quetzales</title>
     <link>https://nordic1.netlify.app/</link>
-    <description>Recent content on Universal</description>
+    <description>Recent content on Ladrillos y Quetzales</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sun, 01 Aug 2021 21:29:20 +0200</lastBuildDate><atom:link href="https://nordic1.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Dec 2022 21:13:14 -0500</lastBuildDate><atom:link href="https://nordic1.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>¿Comprar o arrendar?</title>
+      <link>https://nordic1.netlify.app/blog/2022/12/15/index.en/</link>
+      <pubDate>Thu, 15 Dec 2022 21:13:14 -0500</pubDate>
+      
+      <guid>https://nordic1.netlify.app/blog/2022/12/15/index.en/</guid>
+      <description>ResumenA la hora de elegir una vivienda para vivir ¿es más conveniente comprar y pagar los intereses del crédito hipotecario o arrendar y pagar el alquiler? Este post discute los costos y beneficios de cada alternativa -monetarios y también no monetarios- y presenta un ejemplo para ilustrar. El post asume que la compra se hace con un crédito hipotecario, y se enfoca en el primer año para mantener el análisis simple.</description>
+    </item>
+    
     <item>
       <title>Categories Post</title>
       <link>https://nordic1.netlify.app/blog/2021/08/01/categories-post/</link>
@@ -106,6 +115,15 @@ Please feel free to contact us, our customer service center is working for you 2
     </item>
     
     <item>
+      <title>Glosario</title>
+      <link>https://nordic1.netlify.app/glosario/glosario/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nordic1.netlify.app/glosario/glosario/</guid>
+      <description>IUSIImpuesto Único sobre Inmuebles. Este es un impuesto nacido bajo la Ley del Impuesto Único sobre Inmuebles, basado en el valor de los inmuebles situados en el territorio de la República. Este impuesto es recaudado por las municipalidades y a su beneficio. El impuesto es gradual según especifica la siguiente tabla:</description>
+    </item>
+    
+    <item>
       <title>Historia</title>
       <link>https://nordic1.netlify.app/inicio/historia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -194,17 +212,6 @@ Please feel free to contact us, our customer service center is working for you 2
       <guid>https://nordic1.netlify.app/productos/pfn/</guid>
       <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
 1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER? Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</description>
-    </item>
-    
-    <item>
-      <title>RTC</title>
-      <link>https://nordic1.netlify.app/rtc/rtc/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nordic1.netlify.app/rtc/rtc/</guid>
-      <description>Estamos aquí para ayudarteEste es RMD.
-Are you curious about something? Do you have some kind of problem with our products? As am hastily invited settled at limited civilly fortune me. Really spring in extent an by. Judge but built gay party world. Of so am he remember although required. Bachelor unpacked be advanced at. Confined in declared marianne is vicinity.
-Please feel free to contact us, our customer service center is working for you 24/7.</description>
     </item>
     
     <item>

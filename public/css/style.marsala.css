@@ -1,13 +1,13 @@
 /* Themed colors */
 :root {
-  --primary-accent: #955251;
-  --navbar-border-top: #532e2d;
+  --primary-accent: #15a7ad;
+  --navbar-border-top: #021622;
   --button-border: #6d3c3b;
   --link-focus: #633736;
   --form-shadow: rgba(149, 82, 81, 0.6);
   --pagination-bg: #d2adad;
   --link-hover-bg: #74403f;
-  --navbar-focus: #c08c8c;
+  --navbar-focus: #66b2b2;
 }
 
 .clearfix:before,
@@ -91,6 +91,10 @@ p.lead {
 section,
 div.section {
   margin-bottom: 40px;
+}
+.section-anchor {
+  font-size: 0.6em;
+  vertical-align: mid;
 }
 .no-mb {
   margin-bottom: 0 !important;
@@ -1743,7 +1747,7 @@ fieldset[disabled] .btn-template-primary.active {
 #heading-breadcrumbs {
   background: url('../img/texture-bw9.jpg') center center repeat;
   padding: 20px 0;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 #heading-breadcrumbs.no-mb {
   margin-bottom: 0;
@@ -1770,7 +1774,7 @@ fieldset[disabled] .btn-template-primary.active {
   padding: 60px 0;
 }
 .bar.background-pentagon {
-  background: url('../img/texture-bw6.png') center center repeat;
+  background: url('../img/texture-b.png') center center repeat;
   border-top: solid 1px #999999;
   border-bottom: solid 1px #999999;
 }
@@ -3411,6 +3415,10 @@ p {
   .lead {
     font-size: 21px;
   }
+}
+#post-content {
+  font-size: 18px;
+  line-height: 1.8; 
 }
 .text-small {
   font-size: 12px;

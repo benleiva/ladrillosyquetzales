@@ -1,12 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Universal</title>
+    <title>Categories on Ladrillos y Quetzales</title>
     <link>https://nordic1.netlify.app/categories/</link>
-    <description>Recent content in Categories on Universal</description>
+    <description>Recent content in Categories on Ladrillos y Quetzales</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sun, 01 Aug 2021 21:29:20 +0200</lastBuildDate><atom:link href="https://nordic1.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Dec 2022 21:13:14 -0500</lastBuildDate><atom:link href="https://nordic1.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analisis</title>
+      <link>https://nordic1.netlify.app/categories/analisis/</link>
+      <pubDate>Thu, 15 Dec 2022 21:13:14 -0500</pubDate>
+      
+      <guid>https://nordic1.netlify.app/categories/analisis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arrendar</title>
+      <link>https://nordic1.netlify.app/categories/arrendar/</link>
+      <pubDate>Thu, 15 Dec 2022 21:13:14 -0500</pubDate>
+      
+      <guid>https://nordic1.netlify.app/categories/arrendar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comprar</title>
+      <link>https://nordic1.netlify.app/categories/comprar/</link>
+      <pubDate>Thu, 15 Dec 2022 21:13:14 -0500</pubDate>
+      
+      <guid>https://nordic1.netlify.app/categories/comprar/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>lorem</title>
       <link>https://nordic1.netlify.app/categories/lorem/</link>
