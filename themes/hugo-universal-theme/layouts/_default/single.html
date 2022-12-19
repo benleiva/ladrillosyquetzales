@@ -25,6 +25,8 @@
 
                     <div class="col-md-9" id="blog-post">
 
+    {{ partial "share-buttons.html" . }}
+
                         {{ if or .Params.author .Params.date }}
                           <p class="text-muted text-uppercase mb-small text-right">
                             {{ if isset .Params "authors" }}

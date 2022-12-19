@@ -25,6 +25,11 @@ library(waterfalls)
 formato <- function(x) {format(x, big.mark = ",", decimal.mark = ".", scientific = FALSE, nsmall = 0)}
 ```
 
+<head>
+  <link rel="stylesheet" href="applause-button.css" />
+  <script src="applause-button.js"></script>
+</head>
+
 ## Resumen
 
 A la hora de elegir una vivienda para vivir ¿es más conveniente comprar y pagar los intereses del crédito hipotecario o arrendar y pagar el alquiler? Este post discute los costos y beneficios de cada alternativa -monetarios y también no monetarios- y presenta un ejemplo para ilustrar. El post asume que la compra se hace con un crédito hipotecario, y se enfoca en el primer año para mantener el análisis simple.
@@ -137,6 +142,12 @@ ggplotly(fig3, tooltip = "texto") %>%
 ## Conclusión
 
 Un análisis completo muestra que es más conveniente comprar que arrendar, especialmente si es que es posible reducir impuestos, se cuenta con los recursos necesarios y se planea mantener la propiedad por un tiempo. Arrendar hace más sentido cuando no se dispone de recursos suficientes, o cuando se necesita flexibilidad para cambiar de vivienda con facilidad.
+
+
+<div class="container">
+  <applause-button style="width: 58px; height: 58px;"/>
+</div>
+
 
 <script src="https://utteranc.es/client.js"
         repo="benleiva/ladrillosyquetzales"
