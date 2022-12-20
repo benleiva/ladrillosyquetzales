@@ -70,4 +70,33 @@ Beneficios no monetarios incluyen 1) no tener que lidiar con la administración 
 
 Este es un ejemplo real en un apartamento en Zona 1 de Ciudad de Guatemala que primero se puso para rentas cortas por Airbnb y al año fue cambiado para rentas largas. 
 
-Equipar el apartamento de 69 m2 con dos habitaciones y un baño costó Q 23,000. Los suministros sumaron en promedio Q 386 al mes, los servicios Q 365 y la limpieza Q 725, para un promedio mensual total de Q 1,470. Este total no incluye costos comunes a arriendos de corto y largo plazo como el pago de IUSI, mantenimiento y cuota hipotecaria. Algunos de estos promedios guardan bastante variabilidad, especialmente el de limpieza al depender directamente de la cantidad de huéspuedes recibidos. 
+Equipar el apartamento de 69 m2 con dos habitaciones y un baño costó Q 23,000. Los suministros sumaron en promedio Q 386 al mes, los servicios Q 365 y la limpieza Q 725, para un promedio mensual total de Q 1,470. Este total no incluye costos comunes a arriendos de corto y largo plazo como el pago de IUSI, mantenimiento y cuota hipotecaria. Algunos de estos promedios guardan bastante variabilidad, especialmente el de limpieza al depender directamente de la cantidad de huéspuedes recibidos.
+
+```{r, echo=FALSE, fig.align = 'left', fig.cap="Costos de arriendo corto"}
+mes <- rep(c(1:11),4)
+partida <- c(rep("Suministros",11),rep("Servicios",11),rep("Limpieza",11),rep("Costo total",11))
+quetzales <- c(252,493,359,382,605,225,527,180,243,657,322,
+               338,338,338,338,368,373,373,373,373,373,373,
+               700,400,400,300,500,420,1050,830,1250,1160,960,
+               1290,1231,1097,1020,1473,1018,1950,1383,1866,2190,1655)
+data <- data.frame(mes,partida,quetzales) %>% 
+  mutate(texto = paste0("<b>Mes:</b> ", mes, "<br>",
+                   "<b>Partida:</b> ", formato(partida), "<br>",
+                   "<b>Quetzales:</b> ", formato(quetzales)))
+
+fig1 <- ggplot(data=data) +
+  aes(x=mes, y=quetzales, group=partida, text=texto) +
+  geom_line(aes(color=partida)) +
+  scale_y_continuous(name="Quetzales/mes", labels = scales::comma) +
+  labs(title = "",
+    subtitle = "",
+    caption = paste(""),
+    x = "Mes",
+    y = "Quetzales/mes") +
+  theme_classic() +
+  labs(color = "Partida")
+
+ggplotly(fig1, tooltip = "texto") %>% 
+  config(displayModeBar = FALSE)
+
+```
