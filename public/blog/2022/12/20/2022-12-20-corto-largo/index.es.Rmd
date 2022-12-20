@@ -1,6 +1,6 @@
 ---
 title: "¿Arriendo de corto o largo plazo?"
-author: ''
+# author: ''
 date: '2022-12-20'
 slug: corto-largo
 categories:
