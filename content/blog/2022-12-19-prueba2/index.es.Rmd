@@ -1,13 +1,8 @@
 ---
 title: "¿Arriendo de corto o largo plazo?"
 author: ''
-date: 2022-12-22T21:13:14-05:00
-categories:
-- Analisis
-- Arrendar
-banner: img/banners/banner-4.jpg
-tags:
-- Airbnb
-- Arrendar
----
+date: '2022-12-19'
+slug: prueba2
+categories: []
+tags: []
 ---
