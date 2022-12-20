@@ -1,8 +1,11 @@
 ---
-title: corto-largo
+title: "¿Arriendo de corto o largo plazo?"
 author: ''
 date: '2022-12-20'
 slug: corto-largo
-categories: []
+categories:
+- Analisis
+- Arrendar
+banner: img/banners/banner-4.jpg
 tags: []
 ---
