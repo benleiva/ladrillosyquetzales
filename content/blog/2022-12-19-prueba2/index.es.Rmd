@@ -11,3 +11,25 @@ tags:
 - Airbnb
 - Arrendar
 ---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+library(ggplot2)
+library(readxl)
+library(plotly)
+library(tidyr)
+library(reshape2)
+```
+
+```{r, include=FALSE}
+formato <- function(x) {format(x, big.mark = ",", decimal.mark = ".", scientific = FALSE, nsmall = 0)}
+```
+
+<head>
+  <link rel="stylesheet" href="applause-button.css" />
+  <script src="applause-button.js"></script>
+</head>
+
+## Resumen
+
+Si tienes una vivienda para arrendar ¿es más conveniente hacerlo por plazos cortos vía Airbnb u otra plataforma, o por plazos largos con contratos de mínimo seis meses o típicamente un año? Este post discute los costos y beneficios de cada alternativa -monetarios y también no monetarios- y presenta un ejemplo para ilustrar. El post asume que la administración del arriendo la hace el dueño de la propiedad, y sólo considera los costos que son distintos entre opciones (por ejemplo no se discute el [IUSI](http://localhost:4321/glosario/glosario/#iusi)).
