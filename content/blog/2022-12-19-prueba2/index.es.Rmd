@@ -33,3 +33,41 @@ formato <- function(x) {format(x, big.mark = ",", decimal.mark = ".", scientific
 ## Resumen
 
 Si tienes una vivienda para arrendar ¿es más conveniente hacerlo por plazos cortos vía Airbnb u otra plataforma, o por plazos largos con contratos de mínimo seis meses o típicamente un año? Este post discute los costos y beneficios de cada alternativa -monetarios y también no monetarios- y presenta un ejemplo para ilustrar. El post asume que la administración del arriendo la hace el dueño de la propiedad, y sólo considera los costos que son distintos entre opciones (por ejemplo no se discute el [IUSI](http://localhost:4321/glosario/glosario/#iusi)).
+
+## Corto plazo
+
+### Costos
+
+Los costos monetarios de arrendar por plazos cortos son 1) equipar la propiedad para poder recibir huéspuedes de corto plazo, 2) los suministros que se deben reponer constantemente (shampoo, papel higénico, etc.), 3) el pago de servicios (electricidad, agua, internet) y 4) la limpieza que se debe hacer tras cada huésped. No se considerará la tarifa que cobra la plataforma a usar (Airbnb u otra) dado que el ingreso se recibe neto de dicha tarifa.  
+
+Costos no monetarios incluyen 1) el tiempo y esfuerzo requerido para administrar la operación (esto puede ser monetario si se contrata a alguien, pero aquí asumimos que el administrador es el dueño), 2) un deterioro más acelerado de la propiedad y su contenido por un uso más intensivo que arriendos de largo plazo y 3) un flujo de ingresos más volatil e incierto.
+
+### Beneficios
+
+Los beneficios monetarios de arrendar por plazos cortos son que 1) el nivel de ingresos son más altos que con arriendos de largo plazo, 2) es posible cambiar el precio constantemente para ajustar según la demanda u otras circunstancias.
+
+Beneficios no monetarios incluyen 1) minimizar el riesgo de no pago dado que las plataformas como Airbnb se encargan de ello. 2) usar la vivienda en cualquier momento al bloquear la disponibilidad en Airbnb y 3) conocer muchas personas de distintos lugares (si es que esto es algo que se valora).
+
+## Arriendo anual
+
+Los costos y beneficios son lo opuesto a arriendos de corto plazo, con algunas adiciones.
+
+### Costos
+
+Los costos monetarios de arrendar por plazos largos son 1) el menor ingreso relativo a arriendos de largo plazo, 2) el corretaje de la propiedad, típicamente equivalente al valor de un mes de alquiler y 3) la limpieza y arreglo de la propiedad cuando se cambia de arrendatario.
+
+Costos no monetarios incluyen 1) el riesgo de tener un arrendatario problemático, especialmente que no pague y 2) no poder usar la vivienda por estar ocupada de forma fija.
+
+### Beneficios
+
+El beneficio monetario de arrendar por plazos largos es ahorrarse los costos de un arriendo de corto plazo (equipamiento, suministro, servicios y limpieza).
+
+Costos no monetarios incluyen 1) el tiempo y esfuerzo requerido para administrar la operación (esto puede ser monetario si se contrata a alguien, pero aquí asumimos que el administrador es el dueño), 2) un deterioro más acelerado de la propiedad y su contenido por un uso más intensivo que arriendos de largo plazo y 3) un flujo de ingresos más volatil e incierto.
+
+Beneficios no monetarios incluyen 1) no tener que lidiar con la administración de la operación, salvo cuando se cambie al inquilino, 2) un deterioro más lento de la propiedad y 3) un ingreso seguro y estable (salvo que se materialice el riesgo de un mal arrendatario).
+
+## Ejemplo
+
+Este es un ejemplo real en un apartamento en Zona 1 de Ciudad de Guatemala que primero se puso para rentas cortas por Airbnb y al año fue cambiado para rentas largas. 
+
+Equipar el apartamento de 69 m2 con dos habitaciones y un baño costó Q 23,000. Los suministros sumaron en promedio Q 386 al mes, los servicios Q 365 y la limpieza Q 725, para un promedio mensual total de Q 1,470. Este total no incluye costos comunes a arriendos de corto y largo plazo como el pago de IUSI, mantenimiento y cuota hipotecaria. Algunos de estos promedios guardan bastante variabilidad, especialmente el de limpieza al depender directamente de la cantidad de huéspuedes recibidos. 
