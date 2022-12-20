@@ -3,6 +3,7 @@ title: "¿Arriendo de corto o largo plazo?"
 #authors:
 #- John Doe
 date: 2022-12-22T21:13:14-05:00
+slug: cortolargo
 categories:
 - Analisis
 - Arrendar
