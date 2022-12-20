@@ -100,3 +100,75 @@ ggplotly(fig1, tooltip = "texto") %>%
   config(displayModeBar = FALSE)
 
 ```
+
+El ingreso promedio mensual fue de Q 5,089, lo que dejó en promedio un ingreso neto de costos de Q 3,619 al mes. Estas cifras también esconden considerable variabilidad según la cantidad de huéspedes recibidos (y no consideran los costos comunes a arriendos de corto y largo plazo).
+
+```{r, echo=FALSE, fig.align = 'left', fig.cap="Ingresos de arriendo corto"}
+mes <- rep(c(1:11),2)
+partida <- c(rep("Ingreso",11),rep("Ingreso neto",11))
+quetzales <- c(5407,2504,3485,4599,3489,6299,5460,6293,6896,6715,4830,
+               4117,1273,2388,3579,2016,5281,3510,4910,5030,4525,3175)
+data <- data.frame(mes,partida,quetzales) %>% 
+  mutate(texto = paste0("<b>Mes:</b> ", mes, "<br>",
+                   "<b>Partida:</b> ", formato(partida), "<br>",
+                   "<b>Quetzales:</b> ", formato(quetzales)))
+
+fig1 <- ggplot(data=data) +
+  aes(x=mes, y=quetzales, group=partida, text=texto) +
+  geom_line(aes(color=partida)) +
+  scale_y_continuous(name="Quetzales/mes", labels = scales::comma) +
+  labs(title = "",
+    subtitle = "",
+    caption = paste(""),
+    x = "Mes",
+    y = "Quetzales/mes") +
+  theme_classic() +
+  labs(color = "Partida")
+
+ggplotly(fig1, tooltip = "texto") %>% 
+  config(displayModeBar = FALSE)
+
+```
+
+Después del mes 11 el apartamento se comenzó a arrendar por plazos largos. Los primeros 11 meses por esta modalidad involucraron un gasto total de Q 4,000 por el corretaje de la propiedad más Q 300 por limpieza, lo que significó un gasto mensual promedio de Q 391 Bajo esta modalidad ya no fue necesario pagar suministros y servicios, ni limpieza de forma recurrente. Por su parte, el ingreso durante estos 11 meses fue de Q 4,000 cada mes, con un ingreso adicional el primer mes correspondiente al depósito que debió devolverse en el último mes. Esto dejó un ingreso neto promedio de Q3,609, compuesto por un primer mes con un ingreso neto de Q 3700, luego 9 meses de ingreso neto de Q4,000 y un último mes de ingreso neto cero dado que el último arriendo se usa para devolver la garantía. En la práctica el último mes no genera un ingreso neto de cero porque la propiedad se arrienda nuevamente, pero de esta forma se logra una comparación justa con el arriendo corto.
+
+
+```{r, echo=FALSE, fig.align = 'left', fig.cap="Costo, ingreso e ingreso neto de arriendo largo"}
+mes <- rep(c(1:11),3)
+partida <- c(rep("Costo total",11),rep("Ingreso",11),rep("Ingreso neto",11))
+quetzales <- c(4300,0,0,0,0,0,0,0,0,0,4000,
+               8000,4000,4000,4000,4000,4000,4000,4000,4000,4000,4000,
+               3700,4000,4000,4000,4000,4000,4000,4000,4000,4000,0)
+data <- data.frame(mes,partida,quetzales) %>% 
+  mutate(texto = paste0("<b>Mes:</b> ", mes, "<br>",
+                   "<b>Partida:</b> ", formato(partida), "<br>",
+                   "<b>Quetzales:</b> ", formato(quetzales)))
+
+fig1 <- ggplot(data=data) +
+  aes(x=mes, y=quetzales, group=partida, text=texto) +
+  geom_line(aes(color=partida)) +
+  scale_y_continuous(name="Quetzales/mes", labels = scales::comma) +
+  labs(title = "",
+    subtitle = "",
+    caption = paste(""),
+    x = "Mes",
+    y = "Quetzales/mes") +
+  theme_classic() +
+  labs(color = "Partida")
+
+ggplotly(fig1, tooltip = "texto") %>% 
+  config(displayModeBar = FALSE)
+
+```
+
+## Conclusión
+
+El arriendo de corto plazo generó un ingreso neto promedio de Q 3,619, con considerable variabilidad, mientras que el de largo plazo generó un ingreso neto promedio de Q 3,609, con escaza variabilidad. Además, el arriendo de corto plazo requiere mucho más esfuerzo de administración que el de largo plazo. Por esto, en base a estos datos y experiencia es más conveniente el arriendo de largo plazo.
+
+<script src="https://utteranc.es/client.js"
+        repo="benleiva/ladrillosyquetzales"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
