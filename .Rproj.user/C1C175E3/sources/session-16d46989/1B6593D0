@@ -3,7 +3,7 @@
     "path": "~/GitHub/ladrillosyquetzales/content/blog/22.2022.airbnb o fijo/index.en.Rmd",
     "project_path": "content/blog/22.2022.airbnb o fijo/index.en.Rmd",
     "type": "r_markdown",
-    "hash": "4274149087",
+    "hash": "2766361006",
     "contents": "",
     "dirty": false,
     "created": 1671488435619.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "169,0",
-        "scrollLine": "161"
+        "cursorPosition": "167,0",
+        "scrollLine": "166"
     },
     "folds": "",
-    "lastKnownWriteTime": 1671488445,
+    "lastKnownWriteTime": 1671495925,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1671488445992,
+    "last_content_update": 1671495925527,
     "read_only": false,
     "read_only_alternatives": []
 }
