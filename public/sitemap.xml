@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ladrillosyquetzales.netlify.app/blog/</loc>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ladrillosyquetzales.netlify.app/blog/2022/12/20/2022-12-20-corto-largo/</loc>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ladrillosyquetzales.netlify.app/</loc>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://ladrillosyquetzales.netlify.app/blog/2022/12/15/index.en/</loc>
     <lastmod>2022-12-15T21:13:14-05:00</lastmod>
   </url><url>
@@ -14,9 +23,6 @@
     <loc>https://ladrillosyquetzales.netlify.app/categories/arrendar/</loc>
     <lastmod>2022-12-15T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>https://ladrillosyquetzales.netlify.app/blog/</loc>
-    <lastmod>2022-12-15T21:13:14-05:00</lastmod>
-  </url><url>
     <loc>https://ladrillosyquetzales.netlify.app/categories/</loc>
     <lastmod>2022-12-15T21:13:14-05:00</lastmod>
   </url><url>
@@ -24,9 +30,6 @@
     <lastmod>2022-12-15T21:13:14-05:00</lastmod>
   </url><url>
     <loc>https://ladrillosyquetzales.netlify.app/categories/comprar/</loc>
-    <lastmod>2022-12-15T21:13:14-05:00</lastmod>
-  </url><url>
-    <loc>https://ladrillosyquetzales.netlify.app/</loc>
     <lastmod>2022-12-15T21:13:14-05:00</lastmod>
   </url><url>
     <loc>https://ladrillosyquetzales.netlify.app/tags/</loc>
