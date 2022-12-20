@@ -1,13 +1,8 @@
 ---
-title: "¿Arriendo de corto o largo plazo?"
+title: corto-largo
 author: ''
-date: '2022-12-22'
-slug: cortolargo
-categories:
-- Analisis
-- Arrendar
-banner: img/banners/banner-4.jpg
-tags:
-- Airbnb
-- Arrendar
+date: '2022-12-20'
+slug: corto-largo
+categories: []
+tags: []
 ---
