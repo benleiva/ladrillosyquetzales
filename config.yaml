@@ -198,7 +198,6 @@ taxonomies:
   author: authors
   category: categories
   tag: tags
-
 markup:
   goldmark:
     renderer:

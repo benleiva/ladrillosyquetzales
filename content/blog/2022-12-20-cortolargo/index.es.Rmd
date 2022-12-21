@@ -68,7 +68,7 @@ Beneficios no monetarios incluyen 1) no tener que lidiar con la administración 
 
 ## Ejemplo
 
-Este es un ejemplo real en un apartamento en Zona 1 de Ciudad de Guatemala que primero se puso para rentas cortas por Airbnb y al año fue cambiado para rentas largas. 
+Este es un ejemplo en un apartamento en Zona 1 de Ciudad de Guatemala que primero se puso para rentas cortas por Airbnb y al año fue cambiado para rentas largas. 
 
 Equipar el apartamento de 69 m2 con dos habitaciones y un baño costó Q 23,000. Los suministros sumaron en promedio Q 386 al mes, los servicios Q 365 y la limpieza Q 725, para un promedio mensual total de Q 1,470. Este total no incluye costos comunes a arriendos de corto y largo plazo como el pago de IUSI, mantenimiento y cuota hipotecaria. Algunos de estos promedios guardan bastante variabilidad, especialmente el de limpieza al depender directamente de la cantidad de huéspuedes recibidos. 
 
