@@ -1,0 +1,61 @@
+---
+description: Cuanto pagar
+keywords:
+- FAQ
+- How do I
+- questions
+- what if
+title: ¿Cuánto pagar por una propiedad?
+---
+
+<script src="/rmarkdown-libs/htmlwidgets/htmlwidgets.js"></script>
+<script src="/rmarkdown-libs/pymjs/pym.v1.js"></script>
+<script src="/rmarkdown-libs/widgetframe-binding/widgetframe.js"></script>
+
+
+<head>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<link rel="stylesheet" href="applause-button.css" />
+<script src="applause-button.js"></script>
+</head>
+<div id="resumen" class="section level2">
+<h2>Resumen</h2>
+<p>Si estás buscando comprar una propiedad, ¿cómo puedes saber si el precio que te están ofreciendo es bueno? Este post introduce el método de valoración por flujo libre de caja descontado y presenta un ejemplo para ilustrar. El post discute las limitaciones del método, explicita y discute los supuestos necesarios para superar dichas limitaciones y explora la sensibilidad de los resultados a los supuestos.</p>
+</div>
+<div id="un-método-de-valoración" class="section level2">
+<h2>Un método de valoración</h2>
+<p>El método de valoración por flujo libre de caja descontado plantea que el valor intrínseco de cualquier activo, desde terrenos, casas, apartamentos y hasta empresas está dado por el flujo descontado de beneficios que genere. Por ejemplo, si un activo genera un flujo de caja de 100 en un año y de 100 al año siguiente, y descontamos a tasa de 10 % anual, su valor intrínseco será de 100 + 100/1.1 = 100 + 90.9 = 190.9. Si el activo genera 100 durante tres años entonces su valor intrínseco será de 100 + 100/1.1 + 100/1.1^2 = 100 + 90.9 + 82.6 = 273.6. En general podemos calcular el valor intrínseco con la siguiente fórmula:</p>
+<p><span class="math inline">\(Valor = \sum_{t=0}^T \frac{\pi_t}{(1+r)^t},\)</span></p>
+<p>donde <span class="math inline">\(\pi_t\)</span> es el flujo de caja en el periodo <span class="math inline">\(t\)</span> y <span class="math inline">\(r\)</span> es la tasa a la que se descuentan los flujos futuros. Calcular el valor intrínseco requiere por tanto conocer tres valores críticos: 1) el beneficio <span class="math inline">\(\pi\)</span> en cada período <span class="math inline">\(t\)</span>, 2) el horizonte de análisis <span class="math inline">\(T\)</span> y 3) la tasa de descuento <span class="math inline">\(r\)</span>.</p>
+<p>En esto están las limitaciones del método: En la práctica no se suelen conocer ni los flujos futuros que generará un activo, ni su fecha de caducidad, ni la tasa de decuento “correcta”. Para un bono del tesoro estas limitaciones no son relevantes pues se conocen de forma precisa los flujos y la fecha de caducidad, y pudiéndose aproximar con relativa facilidad la tasa de descuento adecuada. Para empresas las limitaciones son importante, siendo el flujo futuro complejo de predecir, al no existir fecha de caducidad conocida (pero pudiéndo existir) y al requerir una aproximación sofisticada de la tasa de descuento.</p>
+<p>En el caso de bienes raíces las limitaciones son intermedias: no se conocen exactamente los flujos futuros, pero éstos pueden aproximarse con relativa precisión. No existe una fecha de caducidad (una casa no quiebra salvo circunstancias extremas), lo que reduce la incertidumbre relativo a un horizonte desconocido. Por último, con bienes raíces se puede poder aproximar la tasa de descuento adecuada con relativa facilidad.</p>
+</div>
+<div id="ejemplo" class="section level2">
+<h2>Ejemplo</h2>
+<p>Este es un ejemplo en un edificio de apartamentos nuevo en Zona 15 de Ciudad de Guatemala. El apartamento fue comprado a fines de 2021 por Q 2,000,000. Durante 2022 el apartamento pagó de forma anual Q 12,600 por IUSU <a href="http://localhost:4321/glosario/glosario/#iusi">IUSI</a>), Q22,344 por mantenimiento y Q 6,269 por seguros. El apartamento se alquiló en Q 120,000 anual, dejando un flujo libre de Q 78,786 para el año.</p>
+<p>Para calcular el valor intrínseco asumiremos que el alquiler aumenta a un 4 % anual (inflación esperada) mientras que los costos aumentan a un 2% anual. Además, asumiremos que el horizonte de análisis son 50 años y que la tasa de descuento es del 8 %. La siguiente tabla muestra los valores que dan estos supuestos los primeros 10 años (del 0 al 9). También, muestra el valor intrínseco para 50 años de análisis de Q 2,049,803, levemente superior a los Q 2,000,000 que se pagó por el aparamento.</p>
+<div class="figure" style="text-align: left"><span style="display:block;" id="fig:unnamed-chunk-2"></span>
+<div id="htmlwidget-1" style="width:100%;height:480px;" class="widgetframe html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"url":"/invertir/pagar/pagar_files/figure-html//widgets/widget_unnamed-chunk-2.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
+<p class="caption">
+Figure 1: Valoración de una propiedad
+</p>
+</div>
+<p>Estos resultados son sensibles a los supuestos usados. Por ejemplo, si se cambian los valores de los supuestos un 10 % ocurre lo siguiente: si el alquiler aumenta 4.4 % anual (en vez de 4 %) y los costos 2.2 % (en vez de 2 %), el valor intrínseco resulta Q 2,220,252 (un 11 % más). Si se aumenta el horizonte de 50 a 55 años el valor intrínseco aumenta a Q 2,123,645 (un 6 % más), y si se reduce la tasa de descuento de 8 % a 7.2 % el valor resulta en Q 2,357,698 (un 18 % más). Si se hacen estos cambios en conjunto el valor resultante es Q 2,702,957 (un 35 % más).</p>
+<p>A continuación hay una calculadora del valor intrínseco para que puedas estimar el precio máximo que deberías pagar por un activo. Puedes jugar con los supuestos para analizar distintos escenarios.</p>
+<iframe height="500" width="100%" frameborder="no" src="https://benleiva.shinyapps.io/PIB_IDH/">
+</iframe>
+<p>¿Cómo saber qué supuestos usar para la variación anual de ingresos y costos, horizonte de análisis y tasa de descuento? En otro post se discute esto en mayor profundidad.</p>
+</div>
+<div id="conclusión" class="section level2">
+<h2>Conclusión</h2>
+<p>Es posible calcular cuánto se debería pagar por una propiedad en base a su valor intrínseco dado por el método de valoración por flujo libre de caja descontado. Este método nos da un valor concreto, pero requiere de información que no conocemos con precisión. Podemos usar supuestos razonables como sustituto a dicha información, pero el resultado es sensible a los supuestos.</p>
+<script src="https://utteranc.es/client.js"
+        repo="benleiva/ladrillosyquetzales"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+</div>

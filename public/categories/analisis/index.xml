@@ -9,30 +9,20 @@
     <lastBuildDate>Tue, 20 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ladrillosyquetzales.netlify.app/categories/analisis/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>¿Arriendo de corto o largo plazo?</title>
-      <link>https://ladrillosyquetzales.netlify.app/blog/2022/12/20/2022-12-20-cortolargo/</link>
+      <link>https://ladrillosyquetzales.netlify.app/rentabilizar/cortolargo/cortolargo/</link>
       <pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ladrillosyquetzales.netlify.app/blog/2022/12/20/2022-12-20-cortolargo/</guid>
+      <guid>https://ladrillosyquetzales.netlify.app/rentabilizar/cortolargo/cortolargo/</guid>
       <description>ResumenSi tienes una vivienda para arrendar ¿es más conveniente hacerlo por plazos cortos vía Airbnb u otra plataforma, o por plazos largos con contratos de mínimo seis meses o típicamente un año? Este post discute los costos y beneficios de cada alternativa -monetarios y también no monetarios- y presenta un ejemplo para ilustrar. El post asume que la administración del arriendo la hace el dueño de la propiedad, y sólo considera los costos que son distintos entre opciones (por ejemplo no se discute el IUSI).</description>
     </item>
     
     <item>
-      <title>¿Cuánto deberías pagar por una propiedad?</title>
-      <link>https://ladrillosyquetzales.netlify.app/blog/2022/12/20/2022-12-20-cuantovale/</link>
+      <title>Ingresos y gastos</title>
+      <link>https://ladrillosyquetzales.netlify.app/rentabilizar/ingresogasto/ingresogasto/</link>
       <pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ladrillosyquetzales.netlify.app/blog/2022/12/20/2022-12-20-cuantovale/</guid>
-      <description>ResumenSi estás buscando comprar una propiedad, ¿cómo puedes saber si el precio que te están ofreciendo es bueno? Este post introduce el método de valoración por flujo libre de caja descontado y presenta un ejemplo para ilustrar. El post discute las limitaciones del método, explicita y discute los supuestos necesarios para superar dichas limitaciones y explora la sensibilidad de los resultados a los supuestos.
-Un método de valoraciónEl método de valoración por flujo libre de caja descontado plantea que el valor intrínseco de cualquier activo, desde terrenos, casas, apartamentos y hasta empresas está dado por el flujo descontado de beneficios que genere.</description>
-    </item>
-    
-    <item>
-      <title>¿Comprar o arrendar?</title>
-      <link>https://ladrillosyquetzales.netlify.app/blog/2022/12/15/index.en/</link>
-      <pubDate>Thu, 15 Dec 2022 21:13:14 -0500</pubDate>
-      
-      <guid>https://ladrillosyquetzales.netlify.app/blog/2022/12/15/index.en/</guid>
-      <description>ResumenA la hora de elegir una vivienda para vivir ¿es más conveniente comprar y pagar los intereses del crédito hipotecario o arrendar y pagar el alquiler? Este post discute los costos y beneficios de cada alternativa -monetarios y también no monetarios- y presenta un ejemplo para ilustrar. El post asume que la compra se hace con un crédito hipotecario, y se enfoca en el primer año para mantener el análisis simple.</description>
+      <guid>https://ladrillosyquetzales.netlify.app/rentabilizar/ingresogasto/ingresogasto/</guid>
+      <description>ResumenSi tienes o planeas tener una vivienda ¿cuáles son los principales ingresos y gastos que debes tener presente para sacarle la máxima rentabilidad posible? Este artículo presenta los ingresos y gastos asociadas a tener una vivienda y presenta un ejemplo para ilustrar. En el artículo se consideran todos los ingresos y costos, pero en el ejemplo se considera una vivienda que se compra con crédito hipotecario y que se alquila por plazos largos.</description>
     </item>
     
   </channel>

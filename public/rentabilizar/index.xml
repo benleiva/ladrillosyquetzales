@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rentabilizar on Ladrillos y Quetzales</title>
+    <link>https://ladrillosyquetzales.netlify.app/rentabilizar/</link>
+    <description>Recent content in Rentabilizar on Ladrillos y Quetzales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 20 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ladrillosyquetzales.netlify.app/rentabilizar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>¿Arriendo de corto o largo plazo?</title>
+      <link>https://ladrillosyquetzales.netlify.app/rentabilizar/cortolargo/cortolargo/</link>
+      <pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://ladrillosyquetzales.netlify.app/rentabilizar/cortolargo/cortolargo/</guid>
+      <description>ResumenSi tienes una vivienda para arrendar ¿es más conveniente hacerlo por plazos cortos vía Airbnb u otra plataforma, o por plazos largos con contratos de mínimo seis meses o típicamente un año? Este post discute los costos y beneficios de cada alternativa -monetarios y también no monetarios- y presenta un ejemplo para ilustrar. El post asume que la administración del arriendo la hace el dueño de la propiedad, y sólo considera los costos que son distintos entre opciones (por ejemplo no se discute el IUSI).</description>
+    </item>
+    
+    <item>
+      <title>Ingresos y gastos</title>
+      <link>https://ladrillosyquetzales.netlify.app/rentabilizar/ingresogasto/ingresogasto/</link>
+      <pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://ladrillosyquetzales.netlify.app/rentabilizar/ingresogasto/ingresogasto/</guid>
+      <description>ResumenSi tienes o planeas tener una vivienda ¿cuáles son los principales ingresos y gastos que debes tener presente para sacarle la máxima rentabilidad posible? Este artículo presenta los ingresos y gastos asociadas a tener una vivienda y presenta un ejemplo para ilustrar. En el artículo se consideran todos los ingresos y costos, pero en el ejemplo se considera una vivienda que se compra con crédito hipotecario y que se alquila por plazos largos.</description>
+    </item>
+    
+  </channel>
+</rss>

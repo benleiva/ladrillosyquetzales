@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Invertir on Ladrillos y Quetzales</title>
+    <link>https://ladrillosyquetzales.netlify.app/invertir/</link>
+    <description>Recent content in Invertir on Ladrillos y Quetzales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language><atom:link href="https://ladrillosyquetzales.netlify.app/invertir/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>¿Comprar o arrendar?</title>
+      <link>https://ladrillosyquetzales.netlify.app/invertir/comprar/comprar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ladrillosyquetzales.netlify.app/invertir/comprar/comprar/</guid>
+      <description>ResumenA la hora de elegir una vivienda para vivir ¿es más conveniente comprar y pagar los intereses del crédito hipotecario o arrendar y pagar el alquiler? Este post discute los costos y beneficios de cada alternativa -monetarios y también no monetarios- y presenta un ejemplo para ilustrar. El post asume que la compra se hace con un crédito hipotecario, y se enfoca en el primer año para mantener el análisis simple.</description>
+    </item>
+    
+    <item>
+      <title>¿Cuánto pagar por una propiedad?</title>
+      <link>https://ladrillosyquetzales.netlify.app/invertir/pagar/pagar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ladrillosyquetzales.netlify.app/invertir/pagar/pagar/</guid>
+      <description>ResumenSi estás buscando comprar una propiedad, ¿cómo puedes saber si el precio que te están ofreciendo es bueno? Este post introduce el método de valoración por flujo libre de caja descontado y presenta un ejemplo para ilustrar. El post discute las limitaciones del método, explicita y discute los supuestos necesarios para superar dichas limitaciones y explora la sensibilidad de los resultados a los supuestos.
+Un método de valoraciónEl método de valoración por flujo libre de caja descontado plantea que el valor intrínseco de cualquier activo, desde terrenos, casas, apartamentos y hasta empresas está dado por el flujo descontado de beneficios que genere.</description>
+    </item>
+    
+  </channel>
+</rss>

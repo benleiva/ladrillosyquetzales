@@ -9,30 +9,20 @@
     <lastBuildDate>Tue, 20 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ladrillosyquetzales.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>¿Arriendo de corto o largo plazo?</title>
-      <link>https://ladrillosyquetzales.netlify.app/blog/2022/12/20/2022-12-20-cortolargo/</link>
+      <link>https://ladrillosyquetzales.netlify.app/rentabilizar/cortolargo/cortolargo/</link>
       <pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ladrillosyquetzales.netlify.app/blog/2022/12/20/2022-12-20-cortolargo/</guid>
+      <guid>https://ladrillosyquetzales.netlify.app/rentabilizar/cortolargo/cortolargo/</guid>
       <description>ResumenSi tienes una vivienda para arrendar ¿es más conveniente hacerlo por plazos cortos vía Airbnb u otra plataforma, o por plazos largos con contratos de mínimo seis meses o típicamente un año? Este post discute los costos y beneficios de cada alternativa -monetarios y también no monetarios- y presenta un ejemplo para ilustrar. El post asume que la administración del arriendo la hace el dueño de la propiedad, y sólo considera los costos que son distintos entre opciones (por ejemplo no se discute el IUSI).</description>
     </item>
     
     <item>
-      <title>¿Cuánto deberías pagar por una propiedad?</title>
-      <link>https://ladrillosyquetzales.netlify.app/blog/2022/12/20/2022-12-20-cuantovale/</link>
+      <title>Ingresos y gastos</title>
+      <link>https://ladrillosyquetzales.netlify.app/rentabilizar/ingresogasto/ingresogasto/</link>
       <pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ladrillosyquetzales.netlify.app/blog/2022/12/20/2022-12-20-cuantovale/</guid>
-      <description>ResumenSi estás buscando comprar una propiedad, ¿cómo puedes saber si el precio que te están ofreciendo es bueno? Este post introduce el método de valoración por flujo libre de caja descontado y presenta un ejemplo para ilustrar. El post discute las limitaciones del método, explicita y discute los supuestos necesarios para superar dichas limitaciones y explora la sensibilidad de los resultados a los supuestos.
-Un método de valoraciónEl método de valoración por flujo libre de caja descontado plantea que el valor intrínseco de cualquier activo, desde terrenos, casas, apartamentos y hasta empresas está dado por el flujo descontado de beneficios que genere.</description>
-    </item>
-    
-    <item>
-      <title>¿Comprar o arrendar?</title>
-      <link>https://ladrillosyquetzales.netlify.app/blog/2022/12/15/index.en/</link>
-      <pubDate>Thu, 15 Dec 2022 21:13:14 -0500</pubDate>
-      
-      <guid>https://ladrillosyquetzales.netlify.app/blog/2022/12/15/index.en/</guid>
-      <description>ResumenA la hora de elegir una vivienda para vivir ¿es más conveniente comprar y pagar los intereses del crédito hipotecario o arrendar y pagar el alquiler? Este post discute los costos y beneficios de cada alternativa -monetarios y también no monetarios- y presenta un ejemplo para ilustrar. El post asume que la compra se hace con un crédito hipotecario, y se enfoca en el primer año para mantener el análisis simple.</description>
+      <guid>https://ladrillosyquetzales.netlify.app/rentabilizar/ingresogasto/ingresogasto/</guid>
+      <description>ResumenSi tienes o planeas tener una vivienda ¿cuáles son los principales ingresos y gastos que debes tener presente para sacarle la máxima rentabilidad posible? Este artículo presenta los ingresos y gastos asociadas a tener una vivienda y presenta un ejemplo para ilustrar. En el artículo se consideran todos los ingresos y costos, pero en el ejemplo se considera una vivienda que se compra con crédito hipotecario y que se alquila por plazos largos.</description>
     </item>
     
     <item>
@@ -85,13 +75,22 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
     </item>
     
     <item>
-      <title>Bodegas</title>
-      <link>https://ladrillosyquetzales.netlify.app/bodegas/bodegas/</link>
+      <title>¿Comprar o arrendar?</title>
+      <link>https://ladrillosyquetzales.netlify.app/invertir/comprar/comprar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ladrillosyquetzales.netlify.app/bodegas/bodegas/</guid>
-      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER?summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.</description>
+      <guid>https://ladrillosyquetzales.netlify.app/invertir/comprar/comprar/</guid>
+      <description>ResumenA la hora de elegir una vivienda para vivir ¿es más conveniente comprar y pagar los intereses del crédito hipotecario o arrendar y pagar el alquiler? Este post discute los costos y beneficios de cada alternativa -monetarios y también no monetarios- y presenta un ejemplo para ilustrar. El post asume que la compra se hace con un crédito hipotecario, y se enfoca en el primer año para mantener el análisis simple.</description>
+    </item>
+    
+    <item>
+      <title>¿Cuánto pagar por una propiedad?</title>
+      <link>https://ladrillosyquetzales.netlify.app/invertir/pagar/pagar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ladrillosyquetzales.netlify.app/invertir/pagar/pagar/</guid>
+      <description>ResumenSi estás buscando comprar una propiedad, ¿cómo puedes saber si el precio que te están ofreciendo es bueno? Este post introduce el método de valoración por flujo libre de caja descontado y presenta un ejemplo para ilustrar. El post discute las limitaciones del método, explicita y discute los supuestos necesarios para superar dichas limitaciones y explora la sensibilidad de los resultados a los supuestos.
+Un método de valoraciónEl método de valoración por flujo libre de caja descontado plantea que el valor intrínseco de cualquier activo, desde terrenos, casas, apartamentos y hasta empresas está dado por el flujo descontado de beneficios que genere.</description>
     </item>
     
     <item>
@@ -100,37 +99,7 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ladrillosyquetzales.netlify.app/contact/</guid>
-      <description>Estamos aquí para ayudarte Are you curious about something? Do you have some kind of problem with our products? As am hastily invited settled at limited civilly fortune me. Really spring in extent an by. Judge but built gay party world. Of so am he remember although required. Bachelor unpacked be advanced at. Confined in declared marianne is vicinity.
-Please feel free to contact us, our customer service center is working for you 24/7.</description>
-    </item>
-    
-    <item>
-      <title>Equipo</title>
-      <link>https://ladrillosyquetzales.netlify.app/equipo/equipo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ladrillosyquetzales.netlify.app/equipo/equipo/</guid>
-      <description>Juan LealGerente generalGerardo LealGerente de operacionesJuan Pablo AsturiasGerente administrativo y financiero</description>
-    </item>
-    
-    <item>
-      <title>Equipo</title>
-      <link>https://ladrillosyquetzales.netlify.app/inicio/equipo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ladrillosyquetzales.netlify.app/inicio/equipo/</guid>
-      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER? Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</description>
-    </item>
-    
-    <item>
-      <title>Fórmulas</title>
-      <link>https://ladrillosyquetzales.netlify.app/productos/formula/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ladrillosyquetzales.netlify.app/productos/formula/</guid>
-      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER? Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</description>
+      <description>¿Necesitas algo más? El blog transmite todo el conocimiento que tengo que estimo útil para otras personas que quieran invertir en bienes raíces. Aún así, si tienes dudas de algo o por algún otro motivo quieres contactarme puedes hacerlo a correo@algo.com</description>
     </item>
     
     <item>
@@ -140,56 +109,6 @@ Please feel free to contact us, our customer service center is working for you 2
       
       <guid>https://ladrillosyquetzales.netlify.app/glosario/glosario/</guid>
       <description>IUSIImpuesto Único sobre Inmuebles. Este es un impuesto nacido bajo la Ley del Impuesto Único sobre Inmuebles, basado en el valor de los inmuebles situados en el territorio de la República. Este impuesto es recaudado por las municipalidades y a su beneficio. El impuesto es gradual según especifica la siguiente tabla:</description>
-    </item>
-    
-    <item>
-      <title>Historia</title>
-      <link>https://ladrillosyquetzales.netlify.app/inicio/historia/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ladrillosyquetzales.netlify.app/inicio/historia/</guid>
-      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER? Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</description>
-    </item>
-    
-    <item>
-      <title>Más Café</title>
-      <link>https://ladrillosyquetzales.netlify.app/productos/mas_cafe/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ladrillosyquetzales.netlify.app/productos/mas_cafe/</guid>
-      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER? Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</description>
-    </item>
-    
-    <item>
-      <title>Más Maíz</title>
-      <link>https://ladrillosyquetzales.netlify.app/productos/mas_maiz/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ladrillosyquetzales.netlify.app/productos/mas_maiz/</guid>
-      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER? Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</description>
-    </item>
-    
-    <item>
-      <title>Más Phos</title>
-      <link>https://ladrillosyquetzales.netlify.app/productos/mas_phos/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ladrillosyquetzales.netlify.app/productos/mas_phos/</guid>
-      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER? Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</description>
-    </item>
-    
-    <item>
-      <title>Materias primas</title>
-      <link>https://ladrillosyquetzales.netlify.app/productos/materia_prima/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ladrillosyquetzales.netlify.app/productos/materia_prima/</guid>
-      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER? Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</description>
     </item>
     
     <item>
@@ -204,53 +123,13 @@ Please feel free to contact us, our customer service center is working for you 2
     </item>
     
     <item>
-      <title>Nordic Compost</title>
-      <link>https://ladrillosyquetzales.netlify.app/productos/nordic_compost/</link>
+      <title>Sobre el blog</title>
+      <link>https://ladrillosyquetzales.netlify.app/inicio/sobre/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ladrillosyquetzales.netlify.app/productos/nordic_compost/</guid>
-      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER? Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</description>
-    </item>
-    
-    <item>
-      <title>Nordic Yes</title>
-      <link>https://ladrillosyquetzales.netlify.app/productos/nordic_yes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ladrillosyquetzales.netlify.app/productos/nordic_yes/</guid>
-      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER? Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</description>
-    </item>
-    
-    <item>
-      <title>PFN</title>
-      <link>https://ladrillosyquetzales.netlify.app/productos/pfn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ladrillosyquetzales.netlify.app/productos/pfn/</guid>
-      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER? Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</description>
-    </item>
-    
-    <item>
-      <title>Servicios RMD</title>
-      <link>https://ladrillosyquetzales.netlify.app/servicios/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ladrillosyquetzales.netlify.app/servicios/</guid>
-      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER?summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.</description>
-    </item>
-    
-    <item>
-      <title>Valores</title>
-      <link>https://ladrillosyquetzales.netlify.app/inicio/valores/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ladrillosyquetzales.netlify.app/inicio/valores/</guid>
-      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER? Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</description>
+      <guid>https://ladrillosyquetzales.netlify.app/inicio/sobre/</guid>
+      <description>Objetivo Este blog es un espacio de análisis sobre inversión inmobiliaria en Guatemala. Aquí se discuten los potenciales beneficios de comprar inmuebles, detallando qué se debe hacer para maximizar ingresos, minimizar costos y evitar errores.
+Origen Decidí armar este blog porque cometí muchos errores al invertir en mis primeras propiedades, y pensé que sería útil compartir aprendizajes para que otros puedan evitarlos. También, la experiencia que he ganado y que he documentado en detalle puede servirle a potenciales inversionistas a tomar mejores decisiones y quizás animarse a tomar la decisión de adquirir su primera o una nueva propiedad.</description>
     </item>
     
   </channel>

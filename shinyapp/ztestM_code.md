@@ -1,0 +1,19 @@
+---
+title: "ztestM_code"
+author: "Erin M. Buchanan"
+date: "3/17/2018"
+output: 
+  html_document:
+  self_contained: no
+---
+  
+  
+  La fórmula de valor intrínseco es: $$Valor = \sum_{t=0}^T \frac{\pi_t}{(1+r)^t}$$
+  
+  Donde: 
+  
+  $\pi_t$: flujo en el periodo $t$
+  
+  $T$: horizonte de análisis
+  
+  $r$: tasa de descuento
