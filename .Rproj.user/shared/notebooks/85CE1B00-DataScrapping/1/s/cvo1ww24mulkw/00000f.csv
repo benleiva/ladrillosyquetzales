@@ -1,0 +1,25 @@
+"0","library(rvest)"
+"0","library(dplyr)"
+"2","
+Attaching package: ‘dplyr’
+
+"
+"2","The following object is masked from ‘package:sjlabelled’:
+
+    as_label
+
+"
+"2","The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+"
+"0","library(tidyr)"
+"0","library(writexl)"
+"0","library(moderndive)"
+"0","library(ggplot2)"

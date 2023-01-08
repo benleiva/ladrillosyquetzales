@@ -1,0 +1,139 @@
+---
+title: ¿Qué le da valor a un inmueble?
+author: ''
+date: '2022-12-29'
+slug: valor-de-atributos
+banner: img/banners/banner-1.jpg
+categories:
+- Análisis
+tags:
+- Valor
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+library(ggplot2)
+library(readxl)
+library(plotly)
+library(tidyr)
+library(stringr)
+library(reshape2)
+library(sjPlot)
+library(sjmisc)
+library(sjlabelled)
+```
+
+```{r, include=FALSE}
+formato <- function(x) {format(x, big.mark = ",", decimal.mark = ".", scientific = FALSE, nsmall = 0)}
+```
+
+<head>
+  <link rel="stylesheet" href="applause-button.css" />
+  <script src="applause-button.js"></script>
+</head>
+
+## Resumen
+
+Del valor de una propiedad, ¿cuáto se debe a su localización, metraje, habitaciones y otros atributos? Este post primero discute cómo el valor de una propiedad se puede descomponer en sus atributos, y luego presenta un ejemplo para Ciudad de Guatemala con datos recopilados en línea. El post presenta brevemente la metodología usada, el origen de los datos y la limitación de los resultados.
+
+## Valor por atributos
+
+Cuando se compra una propiedad no se paga realmente por lo que costó en términos de cemento, acero, cables, horas de albañiles, arquitectos, ingenieros, etc. Por lo que se paga son los atributos que ésta tiene como localización, metraje, habitaciones y otros.
+
+Es bastante obvio que una propiedad cambia su valor según la zona de la ciudad en que se ubica, su tamaño, la cantidad de habitaciones, etc. Lo interesante es que es posible estimar con cierto grado de certeza cuanto valen dichos atributos. Por ejemplo, se puede encontrar más o menos cuánto valor un metro cuadrado adicional.
+
+## Ejemplo
+
+### Metodología y datos
+
+Para encontrar el valor de atributos se puede usar una técnica llamada regresión. Aquí no entraremos en ningún detalle más que indicar que se usó específicamente Mínimos Cuadrados Ordinarios, la variable a explicar fue precio de vivienda y las variables explicativas el metraje, número de habitaciones, número de estacionamientos y la zona de la ciudad. Más variables no fueron incluidas por la dificultad para obtener datos.
+
+Los datos fueron obtenidos de una plataforma web que lista propiedades en venta. Se aplicó un "raspado de datos" (data scrapping) el 7 de enero de 2023 para obtener 510 observaciones que terminaron en 464 tras eliminar casos atípicos. 
+
+### Resultados
+
+La evidente relación entre precio y metraje se puede observar en la Figura 1. La línea muestra la relación lineal que se puede establecer entre ambas variables.
+
+```{r, echo=FALSE, message=FALSE, fig.align = 'left', fig.cap="Precio y metraje"}
+#cargar y finiquitar base de datos
+#load("scrapped_07_01_2023.Rdata")
+
+df <- read_excel("data1.xlsx") %>% 
+  mutate(zona=as.factor(zona))
+df <- within(df, zona <- relevel(zona, ref = 5))
+
+ggplot(df, aes(x = metraje, y = precioQ/1000)) +
+  geom_point(aes(colour = zona), alpha = 0.5) +
+  labs(
+    x = "Metraje",
+    y = "Precio (millones de Q)") +
+  geom_smooth(method = "lm", se = TRUE) +
+  theme_bw()
+```
+
+No obstante, una regresión permite encontrar un mejor resultado al controlar por el efecto de otras variables que pueden influir en la relación enter precio y metraje; en particular, cantidad de habitaciones, cantidad de estacionamientos y la zona. El resultado de la regresión es el siguiente:
+
+```{r, echo=FALSE, message=FALSE, fig.align = 'center'}
+#Hacer regresiones
+
+modelo1 <- lm(precioQ ~ metraje*hab + parq + factor(zona), data = df)
+
+# summary(modelo1)
+
+# coefs <- coefficients(modelo1)
+
+# coefs[1]
+
+pl <- c(
+  `(Intercept)` = "Constante",
+  metraje = "Metraje",
+  hab = "Habitaciones",
+  parq = "Parqueos",
+  `factor(zona)\r\nCarretera a El Salvador` = "Carretera a El Salvador",
+  `factor(zona)\r\nGuatemala` = "Guatemala",
+  `factor(zona)\r\nMixco` = "Mixco",
+  `factor(zona)\r\nSanta Catarina Pinula` = "Santa Catarina Pinula",
+  `factor(zona)\r\nZona 1` = "Zona 1",
+  `factor(zona)\r\nZona 2` = "Zona 2",
+  `factor(zona)\r\nZona 4` = "Zona 4",
+  `factor(zona)\r\nZona 5` = "Zona 5",
+  `factor(zona)\r\nZona 7` = "Zona 7",
+  `factor(zona)\r\nZona 9` = "Zona 9",
+  `factor(zona)Zona 10` = "Zona 10",
+  `factor(zona)\r\nZona 11` = "Zona 11",
+  `factor(zona)\r\nZona 12` = "Zona 12",
+  `factor(zona)\r\nZona 13` = "Zona 13",
+  `factor(zona)\r\nZona 14` = "Zona 14",
+  `factor(zona)\r\nZona 15` = "Zona 15",
+  `factor(zona)\r\nZona 16` = "Zona 16"
+  )
+
+tab_model(modelo1, 
+          pred.labels = pl)
+```
+
+```{r, echo=FALSE, eval=FALSE}
+nuevos <- data.frame(metraje = c(100),
+                     hab = c(2),
+                     parq = c(2),
+                     zona = "\r\nZona 7")
+ip <- predict(modelo1, newdata = nuevos, interval = "prediction")
+cbind(nuevos, ip)
+```
+
+
+La tabla muestra que por cada m2 adicional una propiedad en promedio vale Q 13,680 más y que por cada estacionamiento vale Q 235,570 más. El número de habitaciones influye negativamente en el precio, lo que es containtuitivo, pero dicho efecto no es estadísticamente significativo (lo que básicamente significa que no es confiable). Esto puede deberse a que el efecto del número de habitaciones esté capturado por el metraje. El efecto de todas las zonas también es no estadísticamente significativo relativos a la Zona 1, aunque sus signos si hacen sentido. Por ejemplo, una propiedad en Zona 14 implica un valor Q 340,760 mayor que una equivalente en Zona 1, mientras que una en Santa Catarina Pinula un valor Q441,130 menor.
+
+Los resultados permiten decir que, por ejemplo, una propiedad de 100 m2 con dos habitaciones y parqueos ubicada en Zona 10 debiera valer en torno a Q 1,573,317, mientras que la misma propiedad en Zona 7 valdría en torno a Q 1,049,054.
+
+## Conclusión
+
+
+
+<script src="https://utteranc.es/client.js"
+        repo="benleiva/ladrillosyquetzales"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>

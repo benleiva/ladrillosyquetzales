@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ladrillosyquetzales.netlify.app/blog/2022/12/29/2022-12-29-valor-de-atributos/</loc>
+    <lastmod>2022-12-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ladrillosyquetzales.netlify.app/categories/an%C3%A1lisis/</loc>
+    <lastmod>2022-12-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ladrillosyquetzales.netlify.app/blog/</loc>
+    <lastmod>2022-12-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ladrillosyquetzales.netlify.app/categories/</loc>
+    <lastmod>2022-12-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ladrillosyquetzales.netlify.app/</loc>
+    <lastmod>2022-12-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ladrillosyquetzales.netlify.app/tags/</loc>
+    <lastmod>2022-12-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ladrillosyquetzales.netlify.app/tags/valor/</loc>
+    <lastmod>2022-12-29T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://ladrillosyquetzales.netlify.app/rentabilizar/cortolargo/cortolargo/</loc>
     <lastmod>2022-12-20T00:00:00+00:00</lastmod>
   </url><url>
@@ -17,78 +38,17 @@
     <loc>https://ladrillosyquetzales.netlify.app/categories/arrendar/</loc>
     <lastmod>2022-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ladrillosyquetzales.netlify.app/categories/</loc>
-    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://ladrillosyquetzales.netlify.app/rentabilizar/ingresogasto/ingresogasto/</loc>
-    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ladrillosyquetzales.netlify.app/</loc>
     <lastmod>2022-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ladrillosyquetzales.netlify.app/rentabilizar/</loc>
     <lastmod>2022-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ladrillosyquetzales.netlify.app/tags/</loc>
-    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ladrillosyquetzales.netlify.app/authors/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>https://ladrillosyquetzales.netlify.app/blog/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>https://ladrillosyquetzales.netlify.app/blog/2021/08/01/categories-post/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>https://ladrillosyquetzales.netlify.app/tags/golang/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>https://ladrillosyquetzales.netlify.app/tags/hugo/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>https://ladrillosyquetzales.netlify.app/authors/john-doe/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>https://ladrillosyquetzales.netlify.app/categories/lorem/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>https://ladrillosyquetzales.netlify.app/tags/programming/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>https://ladrillosyquetzales.netlify.app/categories/programming/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>https://ladrillosyquetzales.netlify.app/categories/pseudo/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>https://ladrillosyquetzales.netlify.app/tags/theme/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>https://ladrillosyquetzales.netlify.app/authors/jane-doe/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
-  </url><url>
-    <loc>https://ladrillosyquetzales.netlify.app/blog/2015/10/02/linked-post/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
-  </url><url>
-    <loc>https://ladrillosyquetzales.netlify.app/tags/go/</loc>
-    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
-  </url><url>
-    <loc>https://ladrillosyquetzales.netlify.app/blog/2015/09/17/go-is-for-lovers/</loc>
-    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
-  </url><url>
-    <loc>https://ladrillosyquetzales.netlify.app/blog/2015/08/03/hugo-is-for-lovers/</loc>
-    <lastmod>2015-08-03T13:39:46+02:00</lastmod>
-  </url><url>
-    <loc>https://ladrillosyquetzales.netlify.app/blog/2015/06/24/creating-a-new-theme/</loc>
-    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
-  </url><url>
-    <loc>https://ladrillosyquetzales.netlify.app/categories/starting/</loc>
-    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
-  </url><url>
     <loc>https://ladrillosyquetzales.netlify.app/invertir/comprar/comprar/</loc>
   </url><url>
     <loc>https://ladrillosyquetzales.netlify.app/invertir/pagar/pagar/</loc>
+  </url><url>
+    <loc>https://ladrillosyquetzales.netlify.app/authors/</loc>
   </url><url>
     <loc>https://ladrillosyquetzales.netlify.app/contact/</loc>
   </url><url>
@@ -99,10 +59,6 @@
     <loc>https://ladrillosyquetzales.netlify.app/inicio/</loc>
   </url><url>
     <loc>https://ladrillosyquetzales.netlify.app/invertir/</loc>
-  </url><url>
-    <loc>https://ladrillosyquetzales.netlify.app/tags/ipsum/</loc>
-  </url><url>
-    <loc>https://ladrillosyquetzales.netlify.app/blog/1/01/01/migrate-from-jekyll/</loc>
   </url><url>
     <loc>https://ladrillosyquetzales.netlify.app/inicio/sobre/</loc>
   </url>

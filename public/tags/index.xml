@@ -6,7 +6,16 @@
     <description>Recent content in Tags on Ladrillos y Quetzales</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 20 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ladrillosyquetzales.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ladrillosyquetzales.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Valor</title>
+      <link>https://ladrillosyquetzales.netlify.app/tags/valor/</link>
+      <pubDate>Thu, 29 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://ladrillosyquetzales.netlify.app/tags/valor/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Airbnb</title>
       <link>https://ladrillosyquetzales.netlify.app/tags/airbnb/</link>
@@ -22,60 +31,6 @@
       <pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://ladrillosyquetzales.netlify.app/tags/arrendar/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>golang</title>
-      <link>https://ladrillosyquetzales.netlify.app/tags/golang/</link>
-      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
-      
-      <guid>https://ladrillosyquetzales.netlify.app/tags/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hugo</title>
-      <link>https://ladrillosyquetzales.netlify.app/tags/hugo/</link>
-      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
-      
-      <guid>https://ladrillosyquetzales.netlify.app/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>programming</title>
-      <link>https://ladrillosyquetzales.netlify.app/tags/programming/</link>
-      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
-      
-      <guid>https://ladrillosyquetzales.netlify.app/tags/programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>theme</title>
-      <link>https://ladrillosyquetzales.netlify.app/tags/theme/</link>
-      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
-      
-      <guid>https://ladrillosyquetzales.netlify.app/tags/theme/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>go</title>
-      <link>https://ladrillosyquetzales.netlify.app/tags/go/</link>
-      <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
-      
-      <guid>https://ladrillosyquetzales.netlify.app/tags/go/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ipsum</title>
-      <link>https://ladrillosyquetzales.netlify.app/tags/ipsum/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ladrillosyquetzales.netlify.app/tags/ipsum/</guid>
       <description></description>
     </item>
     

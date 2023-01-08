@@ -1,0 +1,6 @@
+"0","nuevos <- data.frame(metraje = c(170),"
+"0","                     hab = c(3),"
+"0","                     parq = c(2),"
+"0","                     zona = ""\r\nZona 15"")"
+"0","ip <- predict(modelo1, newdata = nuevos, interval = ""prediction"")"
+"0","cbind(nuevos, ip)"

@@ -6,7 +6,16 @@
     <description>Recent content in Categories on Ladrillos y Quetzales</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 20 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ladrillosyquetzales.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ladrillosyquetzales.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Análisis</title>
+      <link>https://ladrillosyquetzales.netlify.app/categories/an%C3%A1lisis/</link>
+      <pubDate>Thu, 29 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://ladrillosyquetzales.netlify.app/categories/an%C3%A1lisis/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Analisis</title>
       <link>https://ladrillosyquetzales.netlify.app/categories/analisis/</link>
@@ -22,42 +31,6 @@
       <pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://ladrillosyquetzales.netlify.app/categories/arrendar/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>lorem</title>
-      <link>https://ladrillosyquetzales.netlify.app/categories/lorem/</link>
-      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
-      
-      <guid>https://ladrillosyquetzales.netlify.app/categories/lorem/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>programming</title>
-      <link>https://ladrillosyquetzales.netlify.app/categories/programming/</link>
-      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
-      
-      <guid>https://ladrillosyquetzales.netlify.app/categories/programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pseudo</title>
-      <link>https://ladrillosyquetzales.netlify.app/categories/pseudo/</link>
-      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
-      
-      <guid>https://ladrillosyquetzales.netlify.app/categories/pseudo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>starting</title>
-      <link>https://ladrillosyquetzales.netlify.app/categories/starting/</link>
-      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
-      
-      <guid>https://ladrillosyquetzales.netlify.app/categories/starting/</guid>
       <description></description>
     </item>
     

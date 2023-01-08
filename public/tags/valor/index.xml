@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Valor on Ladrillos y Quetzales</title>
+    <link>https://ladrillosyquetzales.netlify.app/tags/valor/</link>
+    <description>Recent content in Valor on Ladrillos y Quetzales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Thu, 29 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ladrillosyquetzales.netlify.app/tags/valor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>¿Qué le da valor a un inmueble?</title>
+      <link>https://ladrillosyquetzales.netlify.app/blog/2022/12/29/2022-12-29-valor-de-atributos/</link>
+      <pubDate>Thu, 29 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://ladrillosyquetzales.netlify.app/blog/2022/12/29/2022-12-29-valor-de-atributos/</guid>
+      <description>ResumenDel valor de una propiedad, ¿cuáto se debe a su localización, metraje, habitaciones y otros atributos? Este post primero discute cómo el valor de una propiedad se puede descomponer en sus atributos, y luego presenta un ejemplo para Ciudad de Guatemala con datos recopilados en línea. El post presenta brevemente la metodología usada, el origen de los datos y la limitación de los resultados.</description>
+    </item>
+    
+  </channel>
+</rss>

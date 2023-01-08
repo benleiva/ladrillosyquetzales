@@ -34,7 +34,7 @@ formato <- function(x) {format(x, big.mark = ",", decimal.mark = ".", scientific
 
 ## Resumen
 
-Si estás buscando comprar una propiedad, ¿cómo puedes saber si el precio que te están ofreciendo es bueno? Este post introduce el método de valoración por flujo libre de caja descontado y presenta un ejemplo para ilustrar. El post discute las limitaciones del método, explicita y discute los supuestos necesarios para superar dichas limitaciones y explora la sensibilidad de los resultados a los supuestos.
+Si estás buscando comprar una propiedad, ¿cómo puedes saber si el precio que te están ofreciendo es bueno? Aquí se introduce el método de valoración por flujo libre de caja descontado y se presenta un ejemplo para ilustrar. Se discuten las limitaciones del método, explicita y discute los supuestos necesarios para superar dichas limitaciones y explora la sensibilidad de los resultados a los supuestos.
 
 ## Un método de valoración
 
