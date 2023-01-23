@@ -1,7 +1,7 @@
 ---
 title: ¿Qué le da valor a una propiedad?
 author: ''
-date: '2023-01-08'
+date: '2022-12-29'
 slug: valor-de-atributos
 banner: img/banners/banner-1.jpg
 categories:
